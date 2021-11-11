@@ -1,24 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+// import { ApolloClient, InMemoryCache, ApolloProvider } from "@apollo/client";
+
+import Header from "./Components/Header/Header";
+
+import Home from "./Pages/Home/Home";
+import About from "./Pages/About/About";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <div className="App">
+        <Header />
+        <Routes>
+          <Route exact path="/" element={<Home />} />
+          <Route path="/About" element={<About />} />
+          <Route path="/Testimonials" />
+          <Route path="/Book" />
+        </Routes>
+      </div>
+    </BrowserRouter>
   );
 }
 

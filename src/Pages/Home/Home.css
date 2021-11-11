@@ -1,0 +1,48 @@
+#Home {
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 10%;
+  color: aliceblue;
+  text-shadow: 0 0 4px rgb(70, 40, 0), 0 0 3px rgb(70, 40, 0),
+    0 0 2px rgb(70, 40, 0);
+}
+
+#Home * {
+  margin-top: 1.5%;
+  margin-bottom: 1.5%;
+}
+
+#Home h1 {
+  width: 51%;
+}
+
+#Home p {
+  font-size: large;
+}
+
+#Home button {
+  padding: 10px;
+  background-color: grey;
+  border-radius: 15px;
+  border-width: 0;
+  transition: background-color 0.5s;
+  font-size: medium;
+  box-shadow: 0 0 5px lightgray, 0 0 2px lightgray;
+}
+
+#Home button:hover {
+  background-color: orange;
+}
+
+@media only screen and (max-width: 768px) {
+  #Home * {
+    margin-top: 7%;
+    margin-bottom: 7%;
+  }
+  #Home h1 {
+    width: 70%;
+  }
+}

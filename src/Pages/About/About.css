@@ -1,0 +1,124 @@
+#About {
+  display: flex;
+  flex-direction: column;
+  padding-left: 7%;
+  padding-right: 7%;
+}
+#About .aboutMain {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+
+#About .aboutMain .textCont {
+  margin-left: 05%;
+  padding: 03%;
+  padding-right: 01%;
+  background-color: rgba(240, 248, 255, 0.9);
+  width: 60%;
+}
+
+#About .aboutMain .textCont p {
+  font-size: large;
+}
+
+#About .aboutMain .imgCont {
+  z-index: -1;
+  height: 70%;
+  width: 30%;
+  position: absolute;
+  left: 55%;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+#About .aboutMain .imgCont img {
+  opacity: 0.9;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+#About .aboutMe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#About .aboutMe div {
+  width: 70%;
+  padding: 05%;
+  background-color: rgba(240, 248, 255, 0.9);
+}
+
+#About .aboutMe p {
+  font-size: large;
+}
+
+#About .aboutEdu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+}
+
+#About .aboutEdu div {
+  width: 40%;
+  background-color: rgba(240, 248, 255, 0.8);
+  padding: 2%;
+  margin: 1%;
+}
+#About .eduHead {
+  background-color: rgba(240, 248, 255, 0.58) !important;
+}
+#About .aboutEdu li {
+  font-size: large;
+}
+#About .aboutEdu img {
+  position: absolute;
+  z-index: -1;
+  height: 50%;
+  left: 33%;
+  width: auto;
+  object-fit: contain;
+  border-radius: 50%;
+}
+
+@media only screen and (max-width: 768px) {
+  #About {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+  #About .aboutMain .imgCont {
+    left: 40%;
+    height: 70%;
+    width: 55%;
+  }
+  #About .aboutMe {
+    height: 70vh;
+  }
+  #About .aboutMe div {
+    width: 90%;
+    padding: 03%;
+  }
+  #About .aboutMe p {
+    font-size: small;
+  }
+  #About .aboutEdu h1 {
+    font-size: medium;
+  }
+  #About .aboutEdu div {
+    width: 60%;
+  }
+  #About .eduHead {
+    width: 45% !important;
+  }
+  #About .aboutEdu li {
+    font-size: small;
+  }
+  #About .aboutEdu img {
+    height: 28%;
+    left: 13.5%;
+  }
+}
