@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/PrathimaPramod/static/css/main.5b1906cc.chunk.css",
+    "main.js": "/PrathimaPramod/static/js/main.7053aeb6.chunk.js",
+    "main.js.map": "/PrathimaPramod/static/js/main.7053aeb6.chunk.js.map",
+    "runtime-main.js": "/PrathimaPramod/static/js/runtime-main.6ae8befb.js",
+    "runtime-main.js.map": "/PrathimaPramod/static/js/runtime-main.6ae8befb.js.map",
+    "static/css/2.383c0125.chunk.css": "/PrathimaPramod/static/css/2.383c0125.chunk.css",
+    "static/js/2.45f80c80.chunk.js": "/PrathimaPramod/static/js/2.45f80c80.chunk.js",
+    "static/js/2.45f80c80.chunk.js.map": "/PrathimaPramod/static/js/2.45f80c80.chunk.js.map",
+    "static/js/3.8d1c4b23.chunk.js": "/PrathimaPramod/static/js/3.8d1c4b23.chunk.js",
+    "static/js/3.8d1c4b23.chunk.js.map": "/PrathimaPramod/static/js/3.8d1c4b23.chunk.js.map",
+    "index.html": "/PrathimaPramod/index.html",
+    "static/css/2.383c0125.chunk.css.map": "/PrathimaPramod/static/css/2.383c0125.chunk.css.map",
+    "static/css/main.5b1906cc.chunk.css.map": "/PrathimaPramod/static/css/main.5b1906cc.chunk.css.map",
+    "static/js/2.45f80c80.chunk.js.LICENSE.txt": "/PrathimaPramod/static/js/2.45f80c80.chunk.js.LICENSE.txt",
+    "static/media/edu.ba1e3647.jpg": "/PrathimaPramod/static/media/edu.ba1e3647.jpg",
+    "static/media/pp.1b21037e.png": "/PrathimaPramod/static/media/pp.1b21037e.png",
+    "static/media/App.css": "/PrathimaPramod/static/media/sunset.89decb8b.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6ae8befb.js",
+    "static/css/2.383c0125.chunk.css",
+    "static/js/2.45f80c80.chunk.js",
+    "static/css/main.5b1906cc.chunk.css",
+    "static/js/main.7053aeb6.chunk.js"
+  ]
+}
