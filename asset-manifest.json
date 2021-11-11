@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/PrathimaPramod/static/css/main.5b1906cc.chunk.css",
-    "main.js": "/PrathimaPramod/static/js/main.d8861149.chunk.js",
-    "main.js.map": "/PrathimaPramod/static/js/main.d8861149.chunk.js.map",
+    "main.js": "/PrathimaPramod/static/js/main.7053aeb6.chunk.js",
+    "main.js.map": "/PrathimaPramod/static/js/main.7053aeb6.chunk.js.map",
     "runtime-main.js": "/PrathimaPramod/static/js/runtime-main.6ae8befb.js",
     "runtime-main.js.map": "/PrathimaPramod/static/js/runtime-main.6ae8befb.js.map",
     "static/css/2.383c0125.chunk.css": "/PrathimaPramod/static/css/2.383c0125.chunk.css",
@@ -23,6 +23,6 @@
     "static/css/2.383c0125.chunk.css",
     "static/js/2.45f80c80.chunk.js",
     "static/css/main.5b1906cc.chunk.css",
-    "static/js/main.d8861149.chunk.js"
+    "static/js/main.7053aeb6.chunk.js"
   ]
 }
