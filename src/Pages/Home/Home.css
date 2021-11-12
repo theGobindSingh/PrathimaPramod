@@ -1,6 +1,6 @@
 #Home {
   height: 100vh;
-
+  padding-top: calc(2% + 60px);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -25,16 +25,20 @@
 
 #Home button {
   padding: 10px;
-  background-color: grey;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: aliceblue;
   border-radius: 15px;
   border-width: 0;
   transition: background-color 0.5s;
   font-size: medium;
-  box-shadow: 0 0 5px lightgray, 0 0 2px lightgray;
+  box-shadow: 0 0 5px lightblue, 0 0 3px lightblue;
+  transition: all 0.5s;
 }
 
 #Home button:hover {
-  background-color: orange;
+  color: aliceblue;
+  background-color: black;
 }
 
 @media only screen and (max-width: 768px) {

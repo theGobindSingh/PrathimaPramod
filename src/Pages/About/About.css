@@ -1,13 +1,14 @@
 #About {
   display: flex;
   flex-direction: column;
+  padding-top: calc(2% + 60px);
   padding-left: 7%;
   padding-right: 7%;
 }
 #About .aboutMain {
   display: flex;
   align-items: center;
-  height: 100vh;
+  height: 90vh;
 }
 
 #About .aboutMain .textCont {
@@ -43,7 +44,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 #About .aboutMe div {
@@ -60,7 +61,10 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 50vh;
+  /* height: 60vh; */
+  overflow: hidden;
+  padding-top: 15%;
+  padding-bottom: 15%;
 }
 
 #About .aboutEdu div {
@@ -91,12 +95,15 @@
     padding-right: 2%;
   }
   #About .aboutMain .imgCont {
-    left: 40%;
+    bottom: 15%;
+    left: 32%;
     height: 70%;
-    width: 55%;
+    width: 65%;
   }
-  #About .aboutMe {
-    height: 70vh;
+  #About .aboutMain .textCont {
+    margin-top: 35%;
+    margin-left: 0%;
+    width: 75%;
   }
   #About .aboutMe div {
     width: 90%;
