@@ -1,0 +1,30 @@
+#Footer {
+  display: flex;
+  width: 100%;
+  margin-top: 3%;
+  padding: 2%;
+  background-color: rgba(173, 216, 230, 0.8);
+  justify-content: center;
+  align-items: center;
+}
+
+#Footer a {
+  text-decoration: none;
+  color: black;
+  text-shadow: 0 0 3px aliceblue, 0 0 2px aliceblue;
+  font-size: 1.6rem;
+  margin-left: 10px;
+  margin-right: 10px;
+  transition: all ease 0.2s;
+  filter: drop-shadow(0 0 4px aliceblue);
+}
+#Footer a:hover {
+  color: aliceblue;
+  filter: drop-shadow(0 0 5px blue);
+}
+#Footer .insta:hover {
+  filter: drop-shadow(0 0 5px red);
+}
+#Footer .whatsapp:hover {
+  filter: drop-shadow(0 0 5px green);
+}

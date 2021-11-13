@@ -1,5 +1,5 @@
 #Home {
-  height: 100vh;
+  height: 90vh;
   padding-top: calc(2% + 60px);
   display: flex;
   flex-direction: column;
@@ -23,6 +23,10 @@
   font-size: large;
 }
 
+#Home a {
+  width: fit-content;
+}
+
 #Home button {
   padding: 10px;
   padding-left: 15px;
@@ -42,6 +46,10 @@
 }
 
 @media only screen and (max-width: 768px) {
+  #Home {
+    padding-top: 0%;
+    height: 100vh;
+  }
   #Home * {
     margin-top: 7%;
     margin-bottom: 7%;

@@ -1,6 +1,12 @@
 import "./Header.css";
 import React from "react";
 import { Link } from "react-router-dom";
+import {
+  Instagram,
+  Whatsapp,
+  Envelope,
+  Telephone,
+} from "react-bootstrap-icons";
 
 export default function Header() {
   function navi() {
@@ -60,6 +66,37 @@ export default function Header() {
             }}
           >
             <Link to="/Book">Book</Link>
+          </li>
+          <li
+            onClick={() => {
+              navi();
+            }}
+            className="icons"
+          >
+            <a href="tel:+919666475998" target="_blank" rel="noreferrer">
+              <Telephone />
+            </a>
+            <a
+              href="https://instagram.com/prathima_pramod"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <Instagram />
+            </a>
+            <a
+              href="https://wa.me/+919666475998"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <Whatsapp />
+            </a>
+            <a
+              href="mailto:dharmapuri.prathima@iipr.in"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <Envelope />
+            </a>
           </li>
         </ul>
       </nav>
