@@ -22,9 +22,21 @@ function App() {
         {/* //comment */}
         <Routes>
           <Route exact path="/" element={<Home />} />
-          <Route path="/About" element={<About />} />
-          <Route path="/Testimonials" element={<Testimonials />} />
-          <Route path="/Book" element={<Book />} />
+          <Route
+            path="/About"
+            element={<About />}
+            basename={process.env.PUBLIC_URL + "/About"}
+          />
+          <Route
+            path="/Testimonials"
+            element={<Testimonials />}
+            basename={process.env.PUBLIC_URL + "/Testimonials"}
+          />
+          <Route
+            path="/Book"
+            element={<Book />}
+            basename={process.env.PUBLIC_URL + "/Book"}
+          />
         </Routes>
         <Footer />
       </div>
